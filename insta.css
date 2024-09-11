@@ -1,0 +1,55 @@
+*{
+    margin: 0em;
+    align-content: center;
+    ;
+}
+.content{
+   width: 100%; 
+   height: 400px;
+}
+.content .photo img{
+    margin: 50px 0 50px 50px;
+    border-radius: 50%;
+    border: 10px double  purple   
+}
+.content .photo{
+    display: inline;
+}
+.content .follow{
+    display: inline-block;
+    width: 400px;
+    margin: 40px 60px 60px 60px;
+    padding: 30px;
+    text-align: center;
+    vertical-align: top;
+}
+ 
+.info ul li{
+    display: block;
+    margin-top: 5px;
+
+}
+.content .follow table tr td{
+    padding: 0 15px;
+   
+}
+.content .follow table{
+    margin-left: 100px;
+}
+#hr{
+    margin: 20px;
+}
+th{
+    padding: 10px;
+    font-size: 20px;
+}
+.images{
+    width: 1200px;
+    text-align: center;
+}
+img{
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
